@@ -1,0 +1,128 @@
+
+----------------------header--------------------------
+
+2017-09-14 16:10:58,711 [1] FATAL ExceltoDB.Program - システムが停止する致命的な障害が発生System.Data.SqlClient.SqlException (0x80131904): ユーザー 'BS_MNT' はログインできませんでした。
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 30
+ClientConnectionId:3d7e9284-4236-4224-87ee-9426438e6ee2
+Error Number: 18456、State: 1、Class: 14
+
+----------------------header--------------------------
+
+2017-09-14 16:12:16,727 [1] FATAL ExceltoDB.Program - システムが停止する致命的な障害が発生
+System.Data.SqlClient.SqlException (0x80131904): ユーザー 'BS_MNT' はログインできませんでした。
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 30
+ClientConnectionId:bbba78eb-25c9-40e5-8004-f59dd00d088a
+Error Number: 18456、State: 1、Class: 14
+
+----------------------header--------------------------
+
+2017-09-14 16:15:42,119 [1] FATAL ExceltoDB.Program - システムが停止する致命的な障害が発生
+System.Data.SqlClient.SqlException (0x80131904): ユーザー 'BS_MNT' はログインできませんでした。
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 30
+ClientConnectionId:1210bf94-7941-45ab-9225-6dd5d093ed5a
+Error Number: 18456、State: 1、Class: 14
+
+----------------------header--------------------------
+
+2017-09-14 16:33:20,104 [1] ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.IOException: 既に存在するファイルを作成することはできません。
+
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.__Error.WinIOError()
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 141
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+2017-09-14 16:40:57,562 [1] FATAL ExceltoDB.Program - システムが停止する致命的な障害が発生。作業は失敗しました。
+System.Data.SqlClient.SqlException (0x80131904): ユーザー 'BS_MNT' はログインできませんでした。
+   場所 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   場所 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   場所 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   場所 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   場所 System.Data.SqlClient.SqlConnection.Open()
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 30
+ClientConnectionId:d8f2fa57-f8bf-4c28-bb02-cf53931aca67
+Error Number: 18456、State: 1、Class: 14
+
+----------------------header--------------------------
+
+2017-09-14 16:50:00,658 [1] INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+2017-09-14 16:50:02,969 [1] ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.IOException: 既に存在するファイルを作成することはできません。
+
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.__Error.WinIOError()
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 142
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+2017-09-15 10:47:31,921 [1] INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+2017-09-15 10:47:33,952 [1] ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.IOException: 既に存在するファイルを作成することはできません。
+
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.__Error.WinIOError()
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 142
+
+----------------------footer--------------------------
+

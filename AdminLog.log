@@ -1,0 +1,65 @@
+
+----------------------header--------------------------
+
+2017-09-15 12:18:50,204 [1] ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.FileNotFoundException: ファイル 'C:\Users\tmeng\Desktop\新しいフォルダー' が見つかりませんでした。
+ファイル名 'C:\Users\tmeng\Desktop\新しいフォルダー' です。'C:\Users\tmeng\Desktop\新しいフォルダー'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 147
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+2017-09-15 12:25:58,403 [1] ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.FileNotFoundException: ファイル 'C:\Users\tmeng\Desktop\新しいフォルダー' が見つかりませんでした。
+ファイル名 'C:\Users\tmeng\Desktop\新しいフォルダー' です。'C:\Users\tmeng\Desktop\新しいフォルダー'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 147
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+記録時間：2017-09-15 13:49:03,479 スレッド：[1] メッセージレベル：ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.FileNotFoundException: ファイル 'C:\Users\tmeng\Desktop\新しいフォルダー' が見つかりませんでした。
+ファイル名 'C:\Users\tmeng\Desktop\新しいフォルダー' です。'C:\Users\tmeng\Desktop\新しいフォルダー'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 147
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+記録時間：2017-09-15 16:34:26,389 スレッド：[1] メッセージレベル：ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.FileNotFoundException: ファイル 'C:\Users\tmeng\Desktop\新しいフォルダー' が見つかりませんでした。
+ファイル名 'C:\Users\tmeng\Desktop\新しいフォルダー' です。'C:\Users\tmeng\Desktop\新しいフォルダー'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 154
+記録時間：2017-09-15 16:34:28,639 スレッド：[1] メッセージレベル：ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.FileNotFoundException: ファイル 'C:\Users\tmeng\Desktop\新しいフォルダー' が見つかりませんでした。
+ファイル名 'C:\Users\tmeng\Desktop\新しいフォルダー' です。'C:\Users\tmeng\Desktop\新しいフォルダー'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 154
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+
+----------------------footer--------------------------
+

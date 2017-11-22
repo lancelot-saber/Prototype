@@ -1,0 +1,63 @@
+
+----------------------header--------------------------
+
+2017-09-15 12:18:48,017 [1] INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+2017-09-15 12:18:50,204 [1] ERROR ExceltoDB.Program - システムが停止するまではいかない障害が発生。作業は成功しましたが、ファイルの移動は失敗しました。
+System.IO.FileNotFoundException: ファイル 'C:\Users\tmeng\Desktop\新しいフォルダー' が見つかりませんでした。
+ファイル名 'C:\Users\tmeng\Desktop\新しいフォルダー' です。'C:\Users\tmeng\Desktop\新しいフォルダー'
+   場所 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   場所 System.IO.File.InternalMove(String sourceFileName, String destFileName, Boolean checkHost)
+   場所 System.IO.File.Move(String sourceFileName, String destFileName)
+   場所 ExceltoDB.Program.Main(String[] args) 場所 C:\Users\tmeng\Desktop\ExceltoDB version b\ExceltoDB\Program.cs:行 147
+2017-09-15 12:18:50,220 [1] INFO  ExceltoDB.Program - 作業は成功しましたが、ファイルの移動は失敗しました。
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+2017-09-15 12:25:57,106 [1] INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+2017-09-15 12:25:58,403 [1] INFO  ExceltoDB.Program - 作業は成功しましたが、ファイルの移動は失敗しました。
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+記録時間：2017-09-15 13:49:01,604 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+記録時間：2017-09-15 13:49:03,494 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - 作業は成功しましたが、ファイルの移動は失敗しました。
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+記録時間：2017-09-15 16:18:30,124 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+
+----------------------header--------------------------
+
+記録時間：2017-09-15 16:34:24,139 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+記録時間：2017-09-15 16:34:26,389 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - 作業は成功しましたが、C:\Users\tmeng\Desktop\新しいフォルダー\ver2【最新版】20170529_車庫データ抽出.xlsxのファイル移動は失敗しました。
+記録時間：2017-09-15 16:34:26,577 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+記録時間：2017-09-15 16:34:28,639 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - 作業は成功しましたが、C:\Users\tmeng\Desktop\新しいフォルダー\車庫データ抽出.xlsxのファイル移動は失敗しました。
+
+----------------------footer--------------------------
+
+
+----------------------header--------------------------
+
+記録時間：2017-09-15 18:10:35,821 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+記録時間：2017-09-15 18:10:37,232 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - 今回C:\\Users\\tmeng\\Desktop\\新しいフォルダー\ver2【最新版】20170529_車庫データ抽出.xlsxの作業は成功に実行しました。
+記録時間：2017-09-15 18:10:37,413 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - Excelファイルの読み込みが出来ました。
+
+記録時間：2017-09-15 18:10:38,733 スレッド：[1] メッセージレベル：INFO  ExceltoDB.Program - 今回C:\\Users\\tmeng\\Desktop\\新しいフォルダー\車庫データ抽出.xlsxの作業は成功に実行しました。
+
+----------------------footer--------------------------
+
